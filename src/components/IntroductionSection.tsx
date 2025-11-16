@@ -1,14 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { BookOpen, TrendingUp, Target } from "lucide-react";
 import introBg from "@/assets/intro-bg.jpg";
-
 export const IntroductionSection = () => {
-  return (
-    <section className="relative py-20 px-4 overflow-hidden">
-      <div 
-        className="absolute inset-0 opacity-10"
-        style={{ backgroundImage: `url(${introBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-      />
+  return <section className="relative py-20 px-4 overflow-hidden">
+      <div className="absolute inset-0 opacity-10" style={{
+      backgroundImage: `url(${introBg})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }} />
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background" />
       
       <div className="container mx-auto max-w-6xl relative z-10">
@@ -72,6 +71,5 @@ export const IntroductionSection = () => {
           </div>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
