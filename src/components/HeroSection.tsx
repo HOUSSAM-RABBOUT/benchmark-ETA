@@ -16,31 +16,7 @@ export const HeroSection = () => {
           </div>
         </div>
         
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">HOUSSAM RABBOUT 
-MOHAMED LOUAZZANI
-YOUNES EL KHADER                                                                                                                                                                                                                                                                                                                  
-  
-  
-  
-  
-  
-  
-  
-  
-                                                                                                                                                                                                                                                                                                                                                                                                      
-   
-   
-   
-   
-   
-   
-   
-   
-                                                                                                                                                                                                                                                                                                                                                                                                
-
-
-
- </h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">MTOETA 301                  </h1>
         
         <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">
           Agences de Voyage en Ligne : <br className="hidden md:block" />
