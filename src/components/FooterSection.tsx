@@ -1,9 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { FileText, Mail, Globe, Calendar } from "lucide-react";
-
 export const FooterSection = () => {
-  return (
-    <footer className="bg-gradient-to-br from-muted/50 to-muted py-12 px-4 border-t border-border">
+  return <footer className="bg-gradient-to-br from-muted/50 to-muted py-12 px-4 border-t border-border">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/10">
@@ -56,10 +54,21 @@ export const FooterSection = () => {
             </p>
           </div>
           <p className="text-xs text-muted-foreground/70">
-            © 2024 - Étude comparative Maroc vs Europe • Tous droits réservés
+            © institut spécialisé en hôtellerie et tourisme - tamuda bay
+
+
+
+
+
+
+
+
+
+
+
+                      
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
