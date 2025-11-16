@@ -4,7 +4,7 @@ import { MapPin, Star } from "lucide-react";
 import atlasLogo from "@/assets/atlas-voyages-logo.png";
 import voyagePriveLogo from "@/assets/voyage-prive-logo.png";
 import savaLogo from "@/assets/sava-travel-logo.png";
-import edreamsLogo from "@/assets/edreams-logo.png";
+import edreamsLogo from "@/assets/edreams-logo.webp";
 
 const agencies = [
   {
