@@ -50,24 +50,10 @@ export const FooterSection = () => {
           <div className="flex items-center justify-center gap-2 mb-3">
             <Mail className="w-4 h-4 text-muted-foreground" />
             <p className="text-sm text-muted-foreground">
-              Rapport Comparatif - Agences de Voyage en Ligne
+              en© institut spécialisé en hôtellerie et tourisme - tamuda bay                                                                                            
             </p>
           </div>
-          <p className="text-xs text-muted-foreground/70">
-            © institut spécialisé en hôtellerie et tourisme - tamuda bay
-
-
-
-
-
-
-
-
-
-
-
-                      
-          </p>
+          
         </div>
       </div>
     </footer>;
