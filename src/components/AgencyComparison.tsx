@@ -1,6 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Star } from "lucide-react";
+import atlasLogo from "@/assets/atlas-voyages-logo.png";
+import voyagePriveLogo from "@/assets/voyage-prive-logo.png";
+import savaLogo from "@/assets/sava-travel-logo.png";
+import edreamsLogo from "@/assets/edreams-logo.png";
 
 const agencies = [
   {
@@ -12,7 +16,8 @@ const agencies = [
     focus: "Culturel & Local",
     region: "morocco",
     score: 3.3,
-    description: "Focus sur le Maroc, l'Europe et l'Afrique avec services personnalisés"
+    description: "Focus sur le Maroc, l'Europe et l'Afrique avec services personnalisés",
+    logo: atlasLogo
   },
   {
     name: "Sava Travel",
@@ -23,7 +28,8 @@ const agencies = [
     focus: "Récréatif & Intérieur",
     region: "morocco",
     score: 3.3,
-    description: "Spécialiste du tourisme intérieur marocain"
+    description: "Spécialiste du tourisme intérieur marocain",
+    logo: savaLogo
   },
   {
     name: "Voyage Privé",
@@ -34,7 +40,8 @@ const agencies = [
     focus: "Promotions Européennes",
     region: "europe",
     score: 4.7,
-    description: "Leader des ventes privées avec couverture mondiale"
+    description: "Leader des ventes privées avec couverture mondiale",
+    logo: voyagePriveLogo
   },
   {
     name: "eDreams",
@@ -45,7 +52,8 @@ const agencies = [
     focus: "Promotions Mondiales",
     region: "europe",
     score: 4.7,
-    description: "Plateforme mondiale avec offres quotidiennes attractives"
+    description: "Plateforme mondiale avec offres quotidiennes attractives",
+    logo: edreamsLogo
   }
 ];
 
@@ -73,14 +81,23 @@ export const AgencyComparison = () => {
               }`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-start justify-between mb-4">
-                <div>
-                  <h3 className="text-xl font-bold text-foreground mb-2">{agency.name}</h3>
-                  <div className="flex items-center gap-2 text-muted-foreground text-sm mb-2">
-                    <MapPin className="w-4 h-4" />
-                    <span>{agency.country}</span>
+              <div className="flex items-start justify-between mb-6">
+                <div className="flex items-center gap-4">
+                  <div className="w-20 h-20 rounded-lg bg-white p-2 flex items-center justify-center shadow-md border border-border">
+                    <img 
+                      src={agency.logo} 
+                      alt={`${agency.name} logo`}
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <p className="text-xs text-muted-foreground">{agency.website}</p>
+                  <div>
+                    <h3 className="text-xl font-bold text-foreground mb-2">{agency.name}</h3>
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm mb-2">
+                      <MapPin className="w-4 h-4" />
+                      <span>{agency.country}</span>
+                    </div>
+                    <p className="text-xs text-muted-foreground">{agency.website}</p>
+                  </div>
                 </div>
                 <Badge 
                   variant="secondary"

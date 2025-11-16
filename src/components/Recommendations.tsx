@@ -131,16 +131,43 @@ export const Recommendations = () => {
           ))}
         </div>
 
-        <Card className="p-8 bg-gradient-to-br from-primary/5 to-europe/5 border-2 border-primary/20">
-          <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-2">
-            <Target className="w-6 h-6 text-primary" />
-            Conclusions Clés
+        <Card className="p-8 md:p-10 bg-gradient-to-br from-primary/10 via-europe/5 to-morocco/5 border-2 border-primary/20 shadow-xl">
+          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 flex items-center gap-2">
+            <Target className="w-7 h-7 text-primary" />
+            Conclusions et Recommandations
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <div className="space-y-6 mb-8">
+            <p className="text-base text-muted-foreground leading-relaxed">
+              Les agences européennes (Voyage Privé et eDreams) <strong className="text-europe">dominent avec des scores moyens de 4,7/5</strong> grâce à l'innovation et au marketing, reflétant la maturité des marchés avancés. Les agences marocaines (Atlas Voyages et Sava Travel) sont <strong className="text-morocco">excellentes localement avec des scores moyens de 3,3/5</strong> mais accusent un retard numérique.
+            </p>
+            
+            <div className="p-6 bg-gradient-to-r from-morocco/10 to-primary/10 rounded-xl border border-morocco/20">
+              <h4 className="font-bold text-foreground mb-4 text-lg">
+                Actions Prioritaires pour la Compétitivité Marocaine :
+              </h4>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-morocco mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong className="text-foreground">Développement numérique</strong> : Applications mobiles natives et intégration de l'IA</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-morocco mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong className="text-foreground">Marketing et partenariats internationaux</strong> : Renforcer la présence digitale</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-morocco mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground"><strong className="text-foreground">Prix flexibles et fidélité</strong> : +15% de satisfaction client attendue</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {conclusions.map((conclusion, index) => (
               <div 
                 key={index}
-                className="flex items-start gap-3 p-4 bg-card rounded-lg"
+                className="flex items-start gap-3 p-4 bg-card rounded-lg border border-border hover:border-primary/40 transition-colors"
               >
                 <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 text-primary font-bold">
                   {index + 1}
@@ -148,6 +175,12 @@ export const Recommendations = () => {
                 <p className="text-sm text-muted-foreground pt-1">{conclusion}</p>
               </div>
             ))}
+          </div>
+
+          <div className="p-5 bg-primary/5 rounded-lg border-l-4 border-primary">
+            <p className="text-sm text-muted-foreground">
+              <strong className="text-foreground">Perspective :</strong> Ces mesures positionneront les agences marocaines comme leaders régionaux. Consultez les rapports de l'Organisation Mondiale du Tourisme (OMT) pour plus de détails.
+            </p>
           </div>
         </Card>
 
