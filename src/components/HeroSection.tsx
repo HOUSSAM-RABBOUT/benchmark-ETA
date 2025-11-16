@@ -18,14 +18,12 @@ export const HeroSection = () => {
         
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">MTOETA301</h1>
         
-        <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ☆ Réalisé par : -Houssam Rbbou -Mohamed Louazzani -Younes El Khader
+        <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ☆ Réalisé par : -Houssam Rabbout -Mohamed Louazzani -Younes El Khader
 ☆ Encadré par : Mme Ilham Tahmoune<br className="hidden md:block" />
           Maroc vs Europe
         </p>
         
-        <p className="text-base md:text-lg text-center text-white/80 max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-          Évaluation de la compétitivité du marché touristique numérique
-        </p>
+        <p className="text-base md:text-lg text-center text-white/80 max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">agences de voyage en ligne : Maroc vs Europe</p>
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-background to-transparent"></div>
