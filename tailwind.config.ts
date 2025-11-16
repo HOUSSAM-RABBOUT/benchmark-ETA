@@ -39,6 +39,18 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        morocco: {
+          DEFAULT: "hsl(var(--morocco))",
+          foreground: "hsl(var(--morocco-foreground))",
+        },
+        europe: {
+          DEFAULT: "hsl(var(--europe))",
+          foreground: "hsl(var(--europe-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
