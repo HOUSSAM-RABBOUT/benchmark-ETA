@@ -23,51 +23,21 @@ export const IntroductionSection = () => {
         </div>
 
         <Card className="p-8 md:p-12 bg-gradient-to-br from-card via-card to-muted/30 border-2 border-primary/10 shadow-xl animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8 text-justify">
-            Le secteur du tourisme numérique croît rapidement mondialement, avec les agences en ligne facilitant les voyages via Internet et les applications mobiles. Au Maroc, le tourisme intérieur et international fait face à des défis numériques face à des marchés avancés comme la France et l'Espagne.
-          </p>
+          <div className="space-y-6">
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
+              Le tourisme change rapidement grâce aux nouvelles technologies. Aujourd'hui, les gens utilisent Internet et les applications mobiles pour préparer leurs voyages, comparer les prix, réserver des vols ou choisir des hôtels. Ce qu'on appelle le tourisme numérique rend les voyages plus simples, plus rapides et adaptés aux besoins de chacun.
+            </p>
 
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 rounded-xl bg-primary/5 border border-primary/10">
-              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                <Target className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="font-bold text-foreground mb-2">Objectif Principal</h3>
-              <p className="text-sm text-muted-foreground">
-                Identifier les points forts et faiblesses des agences marocaines face aux leaders européens
-              </p>
-            </div>
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
+              Dans plusieurs pays d'Europe, ce système est déjà bien utilisé. En Espagne, le site <strong className="text-foreground">eDreams</strong> est très connu. Il propose des services intelligents qui s'adaptent aux envies des clients. En France, l'agence <strong className="text-foreground">Voyages Privé</strong> offre des séjours de luxe avec des offres spéciales, accessibles seulement aux membres. Ces exemples montrent que le tourisme numérique est bien développé en Europe.
+            </p>
 
-            <div className="p-6 rounded-xl bg-europe/5 border border-europe/10">
-              <div className="w-12 h-12 rounded-lg bg-europe/10 flex items-center justify-center mb-4">
-                <TrendingUp className="w-6 h-6 text-europe" />
-              </div>
-              <h3 className="font-bold text-foreground mb-2">Portée de l'Analyse</h3>
-              <p className="text-sm text-muted-foreground">
-                Évaluation comparative sur 7 critères clés de compétitivité numérique
-              </p>
-            </div>
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
+              Au Maroc, le pays a beaucoup de richesses touristiques, mais le passage au numérique est encore lent. Des agences comme <strong className="text-foreground">Sava Travel</strong> et <strong className="text-foreground">Atlas Voyage</strong> commencent à proposer des services en ligne, comme la réservation et la promotion des destinations. Mais elles rencontrent des difficultés : faible qualité des outils numériques, manque de visibilité à l'étranger, et utilisation limitée des nouvelles technologies comme l'intelligence artificielle.
+            </p>
 
-            <div className="p-6 rounded-xl bg-morocco/5 border border-morocco/10">
-              <div className="w-12 h-12 rounded-lg bg-morocco/10 flex items-center justify-center mb-4">
-                <BookOpen className="w-6 h-6 text-morocco" />
-              </div>
-              <h3 className="font-bold text-foreground mb-2">Agences Étudiées</h3>
-              <p className="text-sm text-muted-foreground">
-                2 agences marocaines et 2 agences européennes leaders du marché
-              </p>
-            </div>
-          </div>
-
-          <div className="p-6 bg-gradient-to-r from-primary/10 via-europe/10 to-morocco/10 rounded-xl border border-primary/20">
-            <h3 className="font-bold text-foreground mb-3 flex items-center gap-2">
-              <Target className="w-5 h-5 text-primary" />
-              Mission de cette Étude
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Ce rapport compare quatre agences : <strong>Atlas Voyages</strong> et <strong>Sava Travel</strong> (Maroc), 
-              et <strong>Voyage Privé</strong> (France) et <strong>eDreams</strong> (Espagne), évaluant leur compétitivité sur sept critères. 
-              L'objectif est de proposer des recommandations stratégiques pour renforcer la position des agences marocaines sur le marché régional et international.
+            <p className="text-lg text-muted-foreground leading-relaxed text-justify">
+              Il est donc important d'étudier les différences entre le Maroc et les pays européens, pour trouver des idées et des solutions qui peuvent aider les agences marocaines à mieux évoluer et à devenir plus compétitives dans le monde du tourisme moderne.
             </p>
           </div>
         </Card>
