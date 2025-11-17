@@ -11,17 +11,36 @@ export const HeroSection = () => {
       
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="flex items-center justify-center mb-6 animate-in fade-in slide-in-from-top-4 duration-700">
-          <div className="p-4 bg-white/20 backdrop-blur-sm rounded-2xl">
+          <div className="p-4 bg-white/20 backdrop-blur-sm rounded-2xl animate-[float_3s_ease-in-out_infinite]">
             <Plane className="w-12 h-12 text-white" />
           </div>
         </div>
         
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">MTOETA301</h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-8 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">MTOETA301</h1>
         
-        <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">☆ Réalisé par : -Houssam Rabbout -Mohamed Louazzani -Younes El Khader 
- ☆ Encadré par : Mme Ilham Tahmoune<br className="hidden md:block" />
-          Maroc vs Europe
-        </p>
+        <div className="max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 p-6 md:p-8 shadow-2xl">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-white/90 text-lg font-semibold min-w-fit">✦ Réalisé par :</span>
+                <div className="flex flex-wrap gap-2">
+                  <span className="text-white/95 text-lg">Houssam Rabbout</span>
+                  <span className="text-white/70">•</span>
+                  <span className="text-white/95 text-lg">Mohamed Louazzani</span>
+                  <span className="text-white/70">•</span>
+                  <span className="text-white/95 text-lg">Younes El Khader</span>
+                </div>
+              </div>
+              
+              <div className="h-px bg-white/20"></div>
+              
+              <div className="flex items-center gap-3">
+                <span className="text-white/90 text-lg font-semibold min-w-fit">✦ Encadré par :</span>
+                <span className="text-white/95 text-lg">Mme Ilham Tahmoune</span>
+              </div>
+            </div>
+          </div>
+        </div>
         
         <p className="text-base md:text-lg text-center text-white/80 max-w-3xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">agences de voyage en ligne : Maroc vs Europe</p>
       </div>
