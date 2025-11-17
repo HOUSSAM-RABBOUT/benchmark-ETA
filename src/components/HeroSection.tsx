@@ -18,9 +18,8 @@ export const HeroSection = () => {
         
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-6 animate-in fade-in slide-in-from-top-6 duration-700 delay-100">MTOETA301</h1>
         
-        <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">☆ Réalisé par : -Houssam Rabbout -Mohamed Louazzani -Younes El Khader 
-
-☆ Encadré par : Mme Ilham Tahmoune<br className="hidden md:block" />
+        <p className="text-xl md:text-2xl text-center text-white/95 max-w-4xl mx-auto mb-8 animate-in fade-in slide-in-from-top-8 duration-700 delay-200">☆ Réalisé par : -Houssam Rabbout -Mohamed Louazzani -Younes El Khader 
+ ☆ Encadré par : Mme Ilham Tahmoune<br className="hidden md:block" />
           Maroc vs Europe
         </p>
         
